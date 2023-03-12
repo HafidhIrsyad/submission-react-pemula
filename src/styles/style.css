@@ -57,9 +57,10 @@ img {
 	display: flex;
 	align-items: center;
 	margin: 24px 0;
-	border: 2px dashed black;
+	border: 2px dashed var(--font-color);
 	padding: 16px;
 	border-radius: 8px;
+	color: var(--font-color);
 }
 
 .note-item__image img {
@@ -254,7 +255,7 @@ table .center {
 	align-items: center;
 }
 
-.add-notes h2 {
+h2 {
 	color: var(--font-color);
 }
 

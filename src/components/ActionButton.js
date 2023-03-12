@@ -26,6 +26,7 @@ function ActionButton({ id, onDelete, onArchivedHandler }) {
 ActionButton.propTypes = {
 	id: PropTypes.string.isRequired,
 	onDelete: PropTypes.func.isRequired,
+	onArchivedHandler: PropTypes.func.isRequired,
 };
 
 export default ActionButton;
